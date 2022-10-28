@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    overflow: -moz-hidden-unscrollable;
+    background-color: black;
+    position: relative;
+    font-family: 150;
+}
+
+.container {
+    background-color: hsl(0, 0%, 95%);
+    position: absolute;
+    transform: translate(20%, 20%);
+    width: 50em;
+    height: 20em;
+    padding: 4em;
+}
+
+.fit-in {
+    height: 20em;
+}
+
+.flex-element {
+    display: flex;
+    margin-left: 5em;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 11em;
+    height: 20em;
+    padding: 1em;
+}
+
+.head>h1 {
+    color: hsl(0, 0%, 95%);
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -3px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    width: 11em;
+    height: 20em;
+    padding: 1em;
+}
+
+.paragr {
+    padding: 0px 5px 0px 0px;
+    font-size: 12px;
+}
+
+.paragr>p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.9;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 11em;
+    height: 20em;
+    padding: 1em;
+}
+
+.but>button {
+    background-color: hsl(0, 0%, 95%);
+    width: 99px;
+    height: 40px;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.buts>button {
+    background-color: hsl(0, 0%, 95%);
+    width: 99px;
+    height: 40px;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.but {
+    margin-top: 3em;
+    margin-left: 0.5em;
+}
+
+.buts {
+    margin-top: 3em;
+    margin-left: 0.5em;
+}
+
+.buttn {
+    margin-top: 3em;
+    margin-left: 0.5em;
+}
+
+.buttn>button {
+    background-color: hsl(0, 0%, 95%);
+    width: 99px;
+    height: 40px;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+.grid {
+    background-color: hsl(0, 0%, 95%);
+    width: 99px;
+    height: 40px;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+.grid>a {
+    text-decoration: none;
+    color: red;
+}
